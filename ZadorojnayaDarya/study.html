@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Увлечение</title>
+  </head>
+  <body style="color:rgb(0, 0, 0); background-color:#11f5e9">
+    <h1><center>Куда без учёбы...</center></h1>
+    <hr align="center" width="5000" color="White" />
+    <p><em>Я люблю учиться, но мало когда могу себя заставить это делать..Получать знания, то что нужно всегда</em></p>
+    <img src="учёба.jpg" width="230" height="170">
+    <center><img src="учёба.jpg" width="230" height="170"></center>
+    <img src="учёба.jpg" width="230" height="170">
+    <button id="openDialog">Открыть окно</button>
+  <dialog>
+   <p>Спасибо за внимание! Надеюсь Вам понравился мой первый сайт:).</p>
+   <p><button id="closeDialog">Закрыть окно</button></p>
+  </dialog>
+  <script>
+   var dialog = document.querySelector('dialog');
+   document.querySelector('#openDialog').onclick = function() {
+    dialog.show(); // Показываем диалоговое окно
+   }
+   document.querySelector('#closeDialog').onclick = function() {
+    dialog.close(); // Прячем диалоговое окно
+   }
+  </script>
+  <ul>
+    <li><a href="index.html" class="nav-link">Главная</a></li>
+  </ul>
+</body>
+</html>
