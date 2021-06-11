@@ -1,0 +1,84 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body {
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: rgb(170, 118, 219); /* Цвет фона веб-страницы */
+    color: rgb(5, 5, 5); /* Цвет основного текста */ 
+  }
+  #text {
+    background-color: blueviolet;
+}
+  h1 {
+    color: #a52a2a; /* Цвет заголовка */
+    font-size: 24pt; /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+  }
+  p {
+    text-align: justify; /* Выравнивание по ширине */
+    margin-left: 60px; /* Отступ слева в пикселах */
+    margin-right: 10px; /* Отступ справа в пикселах */
+    border-left: 1px solid #999; /* Параметры линии слева */
+    border-bottom: 1px solid #999; /* Параметры линии снизу */
+    padding-left: 10px; /* Отступ от линии слева до текста  */
+    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+  }
+  h1 { 
+    font-size: 250%; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: rgb(96, 197, 255); 
+   }
+
+h2 { 
+    font-family: 'Dancing Script', cursive;
+    color: chartreuse;
+}
+h1, h2 {
+    text-align: center;
+}
+.photo {
+    width: 800px;
+    height: 450px;
+    border-radius: 200px;
+}
+p {
+    color: white;
+}
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+#block {
+    color: chocolate;
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    height: solid 5px rgb(162, 0, 255);
+    text-align: center;
+    background-image: url(https://lh3.googleusercontent.com/sfMuihSgBo2cwvEJ34gv-n0CmO_nM-BxFo_RW7cB0bxNLcSRnNfQHOibrgK80cRZvLiHPFxyyiLWD-tqQLydImGLCvQ=w640-h400-e365-rj-sc0x00ffffff);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+a {
+    color: rgb(76, 240, 240);
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+
+a:hover {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
